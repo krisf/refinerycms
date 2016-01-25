@@ -10,7 +10,7 @@ module Refinery
 
       mail(:to => user.email,
            :subject => t('subject', :scope => 'refinery.user_mailer.reset_notification'),
-           :from => "\"#{Refinery::Core.site_name}\" <no-reply@#{request.domain}>")
+           :from => "\"#{Refinery::Core.site_name}\" <recruiter-id-app@forces.ca>")
     end
 
   protected
